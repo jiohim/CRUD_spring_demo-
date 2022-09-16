@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="632ed3f6-f6fa-4b46-b584-16899a34eeb8" name="Changes" comment="adding validation">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="632ed3f6-f6fa-4b46-b584-16899a34eeb8" name="Changes" comment="adding JDBC API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/jiohim/springapp/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jiohim/springapp/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jiohim/springapp/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/jiohim/springapp/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jiohim/springapp/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -284,7 +283,7 @@
       <workItem from="1663063552787" duration="26000" />
       <workItem from="1663142457055" duration="4805000" />
       <workItem from="1663148720691" duration="2101000" />
-      <workItem from="1663312547501" duration="2398000" />
+      <workItem from="1663312547501" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="adding PATCH and DELETE">
       <created>1662975064149</created>
@@ -300,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663146283179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding JDBC API">
+      <created>1663315265964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315265964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +326,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding PATCH and DELETE" />
     <MESSAGE value="adding validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding validation" />
+    <MESSAGE value="adding JDBC API" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding JDBC API" />
   </component>
 </project>
